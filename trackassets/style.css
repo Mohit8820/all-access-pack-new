@@ -748,6 +748,47 @@ sup {
   min-width: 3.5rem;
   max-width: 3.5rem;
 }
+/******************************/
+.support {
+  width: 100vw;
+  background: linear-gradient(
+    274.53deg,
+    rgba(255, 135, 135, 0.04) 0.74%,
+    rgba(128, 0, 128, 0.08) 50.35%,
+    rgba(255, 226, 226, 0.28) 86.22%
+  );
+  padding: 3rem;
+  margin-bottom: 7rem;
+}
+.support-flex {
+  margin: auto;
+  width: 56%;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 123.5%;
+}
+.support-item {
+  width: 32rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 1rem;
+}
+
+.support-item img {
+  height: 20rem;
+  align-self: center;
+}
+.support-flex h2 {
+  font-weight: 600;
+  font-size: 2.4rem;
+  margin-top: 0.5rem;
+}
+
+/********************************/
 /********************************************/
 
 /* .course-sec {
@@ -1065,6 +1106,15 @@ footer a {
   .feesback-info {
     gap: 2.2rem;
   }
+
+  .support {
+    width: 100% !important;
+  }
+  .support-flex {
+    align-items: center;
+    flex-direction: column;
+  }
+
   .course-grid {
     grid-template-columns: 1fr;
     justify-items: center;
